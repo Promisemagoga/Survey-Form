@@ -26,25 +26,25 @@ h1, p{
 
 .inputField{
     position: relative;
-    left: 18px;
+    left: 20px;
     color: white;
 }
 
 .role{
     position: relative;
-    left: 18px;
+    left: 20px;
     color: white;
 }
 
 .options{
     position: relative;
-    left: 18px;
+    left: 20px;
     color: white;
 }
 
 .message{
     position: relative;
-    left: 18px;
+    left: 20px;
 }
 
 button{
