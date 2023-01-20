@@ -1,0 +1,81 @@
+body{
+    background-image:linear-gradient(rgb(4,9,30,0.5),rgb(4,9,30,0.5), rgb(4,9,30,0.5)) ,url(src/download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+h1, p{
+    text-align: center;
+    color: white;
+}
+
+#description{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 50;
+}
+
+#title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 200;
+}
+
+#number{
+    width: 47%;
+}
+
+.inputField{
+    position: relative;
+    left: 20px;
+    color: white;
+}
+
+.role{
+    position: relative;
+    left: 20px;
+    color: white;
+}
+
+.options{
+    position: relative;
+    left: 20px;
+    color: white;
+}
+
+.message{
+    position: relative;
+    left: 20px;
+}
+
+button{
+    position: relative;
+    left: 20%;
+    background-color: #56B2BB;
+    border-color: #56B2BB;
+    color: white;
+    width: 50%;
+    height: 28px;
+    font-size: medium;
+}
+
+form{
+    background-color: #1D2233;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#name, #email, #number, #role, #short-message{
+    width: 80%;
+}
+
+#name, #email, #number{
+    height: 20px;
+}
+ #role{
+border: none;
+height: 25px;
+}
+
+h3{
+    color: white;
+}

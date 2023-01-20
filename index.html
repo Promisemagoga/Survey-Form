@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking your time to help me improve my skills,portfolio and chances of getting
+        employed.</p>
+    <form action="" method="post" id="Survey-form">
+        <div class="inputField">
+            <label for="name">
+                Name:
+                <br>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </label>
+            <br>
+            <br>
+            <label for="email">
+                Email:
+                <br>
+                <input type="email" id="email" name="email" placeholder="Enter your your email adress" required>
+            </label>
+            <br>
+            <br>
+            <label for="number">
+                Age:
+                <br>
+                <input type="number" id="number" name="age" min="18" max="60" required
+                    placeholder="Your age should be within the ranges of 18-60">
+            </label>
+        </div>
+        <br>
+        <div class="role">
+            <label for="role">
+                <h3>What option best describe your current role?</h3>
+                <select id="role" name="role" required>
+                    <option value="">Select current role</option>
+                    <option value="1">Software Developer</option>
+                    <option value="2"> Mobile App Developer</option>
+                    <option value="3">Cloud Engineer</option>
+                    <option value="4">FullStack developer</option>
+                    <option value="5">Recruiter</option>
+                    <option value="6">other</option>
+                </select>
+            </label>
+        </div>
+        <br>
+        <div class="options">
+           <h3> Would you reccommend me to a company you working at?</h3>
+            <br>
+            <input type="radio" id="Definately" name="recommendation" checked>
+            <label for="Definately">Definately</label>
+            <br>
+            <input type="radio" id="Maybe" name="recommendation">
+            <label for="Maybe">Maybe</label>
+            <br>
+            <input type="radio" id="Not-Sure" name="recommendation">
+            <label for="Not-Sure">Not Sure</label>
+            <label for="projects">
+                <br>
+                <br>
+               <h3>Which language projects according to my stack should I develop more?</h3>
+                <br>
+                <input type="checkbox" id="javaScript" name="javaScript" checked>
+                <label for="javaScript">javaScript</label>
+                <br>
+                <input type="checkbox" id="dart" name="dart">
+                <label for="dart">Dart</label>
+                <br>
+                <input type="checkbox" id="html-css" name="html-css">
+                <label for="html-css">Html & Css</label>
+                <br>
+                <input type="checkbox" id="backend" name="backend">
+                <label for="backend">Projects connected to the backend</label>
+                <label for="projects">
+                </label>
+        </div>
+        <br>
+        <div class="message">
+            <label for="short-message">
+                <h3>Any comments or suggestion?</h3>
+                <textarea name="short-maessage" id="short-message" placeholder="Leave an advice,recommendation or even a short message for me " cols="30" rows="10"></textarea>
+            </label>
+        </div>
+        <br>
+        <button id="submit" name="submit">Submit</button>
+
+    </form>
+</body>
+
+</html>
